@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/img/Backgroung.jpg);
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke !important;
+}
+
+.text-uppercase {
+    color: whitesmoke !important;
+}
+
+/*div styles*/
+.common {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    text-align: center;
+}
+
+.top {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.middle {
+    top: 100px;
+    left: 0px;
+    right: 0px;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+.imgcenter{
+    display: block;
+    margin: auto;
+    border: 5px solid red;
+    width: 700px
+}
+.tableauPlaceholder{
+    display: block;
+    margin: auto;
+    border: 5px solid red;
+    width: 1200px
+}
+a{
+    color: white;
+}
+
+ol {
+    list-style-position: inside; /* Set the list-style position inside the list item */
+    text-align: left; /* Reset text alignment to left */
+}
+
+ol li {
+    text-align: center; /* Center the content of list items */
+}
+
+.text-content {
+    max-width: 560px; /* Limit the width of the text content to match the image width */
+    margin: 0 auto; /* Center the text content horizontally */
+    padding: 0 20px; /* Add padding to prevent text from sticking to the edges */
+}
+
+.overide-text{
+    text-align: left !important;
+}
+
